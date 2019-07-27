@@ -1,5 +1,10 @@
 # hammock
 
+```
+lein new luminus hammock +reitit +http-kit +mongodb +swagger
+
+```
+
 generated using Luminus version "3.44"
 
 FIXME
