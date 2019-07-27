@@ -1,11 +1,15 @@
 # hammock
 
+- Generated using Luminus version "3.44"
+
 ```
 lein new luminus hammock +reitit +http-kit +mongodb +swagger
 
 ```
 
-generated using Luminus version "3.44"
+- Swagger API docs
+
+http://localhost:3000/swagger-ui/index.html
 
 FIXME
 
