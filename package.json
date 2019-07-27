@@ -4,11 +4,13 @@
   "description": "A clojure backend project template",
   "main": "index.js",
   "author": "Abhinav Sharma (abhi) <abhi18av@gmail.com>",
-    "license": "MIT",
-    "scripts" :{
-        "json-server": "json-server --watch ./_resources/db.json"
-    },
+  "license": "MIT",
+  "scripts": {
+      "json-server": "json-server --watch ./_resources/db.json",
+      "lumo": "npx lumo"
+  },
   "dependencies": {
-    "json-server": "^0.15.0"
+    "json-server": "^0.15.0",
+    "lumo-cljs": "^1.10.1"
   }
 }
