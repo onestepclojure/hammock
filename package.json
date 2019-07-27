@@ -1,0 +1,8 @@
+{
+  "name": "hammock",
+  "version": "1.0.0",
+  "description": "A clojure backend project template",
+  "main": "index.js",
+  "author": "Abhinav Sharma (abhi) <abhi18av@gmail.com>",
+  "license": "MIT"
+}
