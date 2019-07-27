@@ -5,9 +5,9 @@
   "main": "index.js",
   "author": "Abhinav Sharma (abhi) <abhi18av@gmail.com>",
     "license": "MIT",
-    "script" :{
-        "json-server": "json-server --watch ./_resources/db.json",
-    }
+    "scripts" :{
+        "json-server": "json-server --watch ./_resources/db.json"
+    },
   "dependencies": {
     "json-server": "^0.15.0"
   }

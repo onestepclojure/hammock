@@ -7,7 +7,7 @@
 ;;;;;;;;;
 ;; synchronous
 
-(let [{:keys [status headers body error] :as resp} @(http/get "http://jsonplaceholder.typicode.com/todos/1")]
+(let [{:keys [status headers body error] :as resp} @(http/get "http://localhost:3000/posts/1")]
   (if error
     (println "Failed, exception: " error)
     (println "HTTP GET success: " body)))
